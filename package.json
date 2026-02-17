@@ -1,0 +1,15 @@
+{
+  "name": "solana-testnet-drainer",
+  "version": "1.0.0",
+  "description": "Educational Solana testnet drainer",
+  "main": "create-token.js",
+  "scripts": {
+    "create": "node create-token.js",
+    "drain": "node drain-bot.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "@solana/spl-token-2022": "^0.3.9"
+  }
+}
